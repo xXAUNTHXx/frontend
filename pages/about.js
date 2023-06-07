@@ -10,9 +10,9 @@ export default function about() {
       <header data-bs-theme="dark">
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" href="#">
               About
-            </a>
+            </Link>
             <button
               className="navbar-toggler"
               type="button"
