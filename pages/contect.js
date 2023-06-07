@@ -3,15 +3,15 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function index() {
+export default function contact() {
   return (
     <>
     <body>
       <header data-bs-theme="dark">
         <nav className="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
           <div className="container-fluid">
-            <a className="navbar-brand" Link="#">
-              index
+            <a className="navbar-brand" href="#">
+            Contact
             </a>
             <button
               className="navbar-toggler"
@@ -27,12 +27,12 @@ export default function index() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
+                  <a className="nav-link" href="index">
                     Home
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contect">
+                  <a className="nav-link active" href="#" >
                   Contact
                   </a>
                 </li>
