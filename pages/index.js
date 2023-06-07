@@ -27,19 +27,19 @@ export default function index() {
             <div className="collapse navbar-collapse" id="navbarCollapse">
               <ul className="navbar-nav me-auto mb-2 mb-md-0">
                 <li className="nav-item">
-                  <a className="nav-link active" href="#">
+                  <Link className="nav-link active" href="#">
                     Home
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="contect">
+                  <Link className="nav-link" href="contect">
                   Contact
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="about">
+                  <Link className="nav-link" href="about">
                     about
-                  </a>
+                  </Link>
                 </li>
               </ul>
               <form className="d-flex" role="search">
