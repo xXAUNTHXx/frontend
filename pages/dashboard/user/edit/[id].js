@@ -87,7 +87,7 @@ export default function Component({ posts }) {
                   <label htmlFor="inputEmail4">Student Id</label>
                   <input type="hidden" className="form-control" name ="studentid" id="studentid" placeholder="Student Id" 
                   // onChange={(event) => { setPassword(event.target.value) }}
-                  defaultValue={post.studentid}
+                  defaultValue={post.id}
                   required/>
                 </div>
                 <div className="form-group col-md-10">
