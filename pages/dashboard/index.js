@@ -12,17 +12,16 @@ import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import { useRouter } from "next/router";
 import Link from 'next/link';
-import Swal from 'sweetalert2'
 
-export async function getStaticProps() {
-  const res = await fetch("https://frontend-theta-rust.vercel.app/api/users");
+export async function getServerSideProps() {
+  const res = await fetch('https://frontend-theta-rust.vercel.app/api/users');
   const posts = await res.json();
 
   return {
     props: {
       posts,
     },
-  };
+  }
 }
 
 export default function Component({ posts }) {
